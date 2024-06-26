@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "rubik bubbles" ;
+}
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    background-image: linear-gradient(135deg, #001573 0%, #3c0177 80%);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:#E7DFC6;
+    margin-top: 4vmin;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #001573;
+    background-color: #E7DFC6;
+}
+
+#reset-btn{
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 1.25rem;
+    border:none;
+    background-color: #E7DFC6;
+    color:#01035a;
+}
+
+#new-game-btn{
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 1.25rem;
+    border:none;
+    background-color: #E7DFC6;
+    color:#01035a;
+}
+
+#msg{
+    color:#E7DFC6;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide {
+    display: none;
+}
