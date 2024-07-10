@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #283618;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #283618;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: absolute;
+    margin-bottom: .35rem;
+}
+
+.container{
+    background-color: #FEFAE0;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: none;
+    min-height: 50vh;
+    width: 40vh;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+
+form  button, input{
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    background-color: #FEFAE0;
+}
+
+form select{
+    background-color: #FEFAE0;
+    width:100%;
+    border: none;
+    outline: none;
+}
+
+form input{
+    border: 1px solid #DDA15E;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left:1rem;
+}
+
+
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.dropdown i{
+    font-size: 1.3rem;
+    margin-top:1rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid #DDA15E;
+    width: 6.5rem;
+}
+
+.select-container select{
+    margin-left: .5rem;
+    font-size: 1rem;
+    width: auto;
+}
+
+
+.msg{
+    margin: 2rem 0 2rem;
+}
+
+form button{
+    height: 3rem;
+    background-color: #DDA15E;
+    color: #FEFAE0;
+    font-size: 1.10rem;
+    cursor:pointer;
+}
+
